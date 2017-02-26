@@ -1,0 +1,5 @@
+/*.main {
+    composes: clearfix container from "shared/styles/layout.css";
+    /*subtract footer height from main height for sticky footer*/
+    min-height: calc(100vh - 110px);
+}*/

@@ -1,0 +1,37 @@
+.footer {
+    composes: clearfix from "shared/styles/layout.css"; 
+    background-color: #1e3f63;
+    width: 100%;
+}
+
+.nav {
+    composes: clearfix container from "shared/styles/layout.css";
+}
+
+.headerMenu {
+    display: inline-block;
+    position: relative; 
+    height: 59px;
+}
+
+.headerMenuItem {
+    display: block;
+    float: left;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.headerMenuItem > a {
+    color: #b0c1d3;
+    padding: .25em .5em;
+    margin-left: .5em;
+    margin-right: .5em; 
+}
+
+.headerMenuItem > a.active,
+.headerMenuItem > a:focus,
+.headerMenuItem > a:hover  {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}

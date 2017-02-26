@@ -1,0 +1,246 @@
+.layout__box___3mduB {
+  border-width: 2px;
+  border-style: solid;
+  padding: 0 20px;
+  margin: 0 6px;
+  max-width: 400px;
+}
+
+.layout__container___3WXfJ {
+  max-width: 1070px;
+  padding: 0 1em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.layout__clearfix___1Jr_o::after {
+  content:"";
+  display:block;
+  clear:both;
+}
+html {
+  font-size: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  color: #646464;
+} 
+
+.App__app___3lRY_ {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+header,
+footer {
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none; /* 2 */
+}
+
+main {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto; /* 2 */
+  width: 100%;
+}
+main::after {
+  content: '\A0'; /* &nbsp; */
+  display: block;
+  margin-top: var(--space);
+  height: 0px;
+  visibility: hidden;
+}
+
+*, *::after, *::before {
+  box-sizing: border-box; 
+}
+
+.App__app___3lRY_ {
+  -webkit-text-size-adjust: none;
+      -ms-text-size-adjust: none;
+          text-size-adjust: none;
+  font-family: helvetica, arial, sans-serif;
+  line-height: 1.5;
+}
+
+.App__hr___2U3ua {
+  margin: 40px 0;
+  height: 1px;
+  border: 0;
+  background: #ccc;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-transition: color 0.1s linear;
+          transition: color 0.1s linear;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.App__screenReaderOnly___2kF6Y {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+table {
+  max-width: 100%;
+  width: 100%;
+}
+
+table th {
+  border-bottom: 1px solid #e1e1e1;
+  font-weight: normal;
+  line-height: 1.3;
+  padding: .25em 0;
+  text-align: left;
+  vertical-align: bottom;
+}
+
+table td {
+  border-bottom: 1px solid #e1e1e1;
+  padding: .25em 0;
+}
+
+table tr,
+table td {
+  vertical-align: middle;
+}
+
+.Header1__header___15jwC { 
+    background-color: #1e3f63;
+    width: 100%;
+}
+
+.Header1__nav___2lnSR {
+}
+
+.Header1__headerMenu___3e2ze {
+    display: inline-block;
+    position: relative; 
+    height: 59px;
+}
+
+.Header1__headerMenuLeft___16vko {
+    float: left;
+}
+
+.Header1__headerMenuRight___1u3kk {
+    float: right;
+}
+
+.Header1__headerMenuItem___34Oiw {
+    display: block;
+    float: left;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+}
+
+.Header1__headerMenuItem___34Oiw > a {
+    color: #b0c1d3;
+    padding: .25em .5em;
+    margin-left: .5em;
+    margin-right: .5em; 
+}
+
+.Header1__headerMenuItem___34Oiw > a.Header1__active___MfRH0,
+.Header1__headerMenuItem___34Oiw > a:focus,
+.Header1__headerMenuItem___34Oiw > a:hover  {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+
+.Header1__logoOne___1gFOO {
+  display: block;
+  background-color: #fff;
+  border-radius: 50%;
+  float: left;
+  width: 35px;
+  height: 35px;
+  margin: .75em .75em .75em 0;
+}.Footer__footer___C27gR { 
+    background-color: #1e3f63;
+    width: 100%;
+}
+
+.Footer__nav___3nwTt {
+}
+
+.Footer__headerMenu___j0lrS {
+    display: inline-block;
+    position: relative; 
+    height: 59px;
+}
+
+.Footer__headerMenuItem___2ZNH0 {
+    display: block;
+    float: left;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+}
+
+.Footer__headerMenuItem___2ZNH0 > a {
+    color: #b0c1d3;
+    padding: .25em .5em;
+    margin-left: .5em;
+    margin-right: .5em; 
+}
+
+.Footer__headerMenuItem___2ZNH0 > a.Footer__active___1fHzL,
+.Footer__headerMenuItem___2ZNH0 > a:focus,
+.Footer__headerMenuItem___2ZNH0 > a:hover  {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+.LeftMenu__headerMenu___2-Rux {
+    padding: 0;
+    margin: 0;
+}
+
+.LeftMenu__headerMenuItem___L14sr {
+    display: inline-block;
+}
+
+.LeftMenu__leftMenu___qFPkU {
+}
+
+.LeftMenu__leftMenuItem___yvR4G > a:active,
+.LeftMenu__leftMenuItem___yvR4G > a:hover,
+.LeftMenu__leftMenuItem___yvR4G > a:focus {
+   color: #000;
+}
+
+.LeftMenu__menuContainer___ZU3xi {
+    float: left;
+    width: 25%;
+}
+.Settings__settingsContainer___2VNAD {
+    float: right;
+    width: 75%;
+}
+/*# sourceMappingURL=style.css.map*/
